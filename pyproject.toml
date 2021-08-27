@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "globalprogramlib"
+version = "0.0.1"
+description = "The library you need for writting multilingual applications"
+authors = ["PWRScript <powerofthescript@outlook.com>"]
+maintainers = ["PWRScript <powerofthescript@outlook.com>"]
+license = "GPL-3.0-only"
+
+readme = "README.md"
+keywords = ["language", "global", "translator", "multilingual"]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Text Processing :: General",
+    "Topic :: Text Processing :: Linguistic",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.scripts]
+globalprogramlib_coverage = 'scripts.globalprogramlib_coverage:main'
+
+[tool.poetry.dependencies]
+python = ">=3.6,<3.10"
+aiofiles = "^0.7.0"
+asyncio = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.7b0", python = ">=3.6.2"}
+pytest-asyncio = "^0.15.1"
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
