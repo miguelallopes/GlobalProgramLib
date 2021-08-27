@@ -23,7 +23,7 @@ classifiers = [
 ]
 
 [tool.poetry.scripts]
-globalprogramlib_coverage = 'scripts.globalprogramlib_coverage:main'
+globalprogramlib_coverage = 'globalprogramlib.scripts.globalprogramlib_coverage:main'
 
 [tool.poetry.dependencies]
 python = ">=3.6,<3.10"

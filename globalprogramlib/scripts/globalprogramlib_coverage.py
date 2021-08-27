@@ -3,6 +3,7 @@ from globalprogramlib.v1 import Language, check_language_file, evaluate_coverage
 from globalprogramlib.utils import errors
 from sys import argv
 
+
 def main():
     print("*************************************")
     print("*    Language Coverage Evaluator    *")
