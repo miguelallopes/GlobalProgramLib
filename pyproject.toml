@@ -4,13 +4,17 @@ version = "0.0.1"
 description = "The library you need for writting multilingual applications"
 authors = ["PWRScript <powerofthescript@outlook.com>"]
 maintainers = ["PWRScript <powerofthescript@outlook.com>"]
-license = "GPL-3.0-only"
+license = "MIT"
+
+homepage = "https://github.com/PWRScript/globalprogramlib"
+repository = "https://github.com/PWRScript/globalprogramlib"
 
 readme = "README.md"
 keywords = ["language", "global", "translator", "multilingual"]
 classifiers = [
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "License :: OSI Approved :: MIT License",
     "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries",
     "Topic :: Text Processing :: General",
     "Topic :: Text Processing :: Linguistic",
