@@ -36,7 +36,7 @@ asyncio = "^3.4.3"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^21.9b0", python = ">=3.6.2"}
-pytest-asyncio = "^0.15.1"
+pytest-asyncio = "^0.16.0"
 pytest = "^6.2.5"
 
 [build-system]
