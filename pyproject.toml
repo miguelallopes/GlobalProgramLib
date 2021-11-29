@@ -31,7 +31,7 @@ globalprogramlib_coverage = 'globalprogramlib.scripts.globalprogramlib_coverage:
 
 [tool.poetry.dependencies]
 python = ">=3.6,<3.10"
-aiofiles = "^0.7.0"
+aiofiles = "^0.8.0"
 asyncio = "^3.4.3"
 
 [tool.poetry.dev-dependencies]
